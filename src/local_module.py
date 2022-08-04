@@ -250,3 +250,11 @@ def join_count(points, polygons, groupby_col, count_col, unique_id):
     polygons.fillna(value={count_col: 0}, inplace=True)
     
     return polygons
+
+def json_to_dataframe(response):
+    """
+    Convert JSON response to dataframe
+    https://github.com/analyticsariel/projects/blob/master/
+    021%20-%20source_us-census-bureau-api_population_2019_walkthrough.ipynb
+    """
+    return pandas.DataFrame(response.json()[1:], columns=response.json()[0])

@@ -10,4 +10,6 @@
 - [Other Years Downloads](https://nhts.ornl.gov/downloads)
 
 ## ACS/Decennial Census
+- [ACS 1-Year Data, 2005-2020](https://www.census.gov/data/developers/data-sets/acs-1year.2020.html)
 - [Means of Transportation to Work](https://censusreporter.org/tables/B08301/)
+- [ACS data via API](https://www.census.gov/programs-surveys/acs/data/data-via-api.html)
